@@ -1,0 +1,17 @@
+{
+  "name": "docker-demo",
+  "version": "1.0.0",
+  "description": "host web application",
+  "main": "demo.js",
+  "scripts": {
+    "start": "nodemon demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bharat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.5.1"
+  }
+}
